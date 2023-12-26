@@ -14,7 +14,7 @@ body {
     color: white;
     font-size: 1.6rem;
     /* çarpan demek rem*/
-    line-height: 1.5;
+    line-height: 1.5rem;
     /* satır arasındaki boşluk */
     text-align: center;
     background-color: #333;
@@ -44,7 +44,6 @@ img {
 
 header {
     height: 46rem;
-
 
 }
 
@@ -126,7 +125,7 @@ header h1 {
 
 }
 
-#section-d .box:first-child {
+#section-d .box:nth-child(1) {
     background-color: darkslategray;
 }
 
